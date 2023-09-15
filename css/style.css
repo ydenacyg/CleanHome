@@ -1,6 +1,7 @@
 /* Dena */
 .container-dark {
     color: white;
+	max-height: 750px;
 }
 
 .verification-modal {
@@ -16,7 +17,7 @@
 	gap: 2rem;
 }
 
-.verification-code > p {
+.promo-details > p {
 	cursor: pointer;
 }
 

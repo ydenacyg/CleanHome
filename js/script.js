@@ -11,8 +11,18 @@ $(document).ready(function () {
     $("#submitBtn").click(function () {
         $("#confirmation-msg").modal("show");
 	});
-});
 
+	$('.verification-input').on('input', function() {
+        if (this.value.length === parseInt(this.maxLength, 10)) {
+            const $nextInput = $(this).next('.verification-input');
+            
+            if ($nextInput.length) {
+                $nextInput.focus();
+            }
+        }
+    });
+
+	});
 // end
 
 // $(document).ready(function () {
