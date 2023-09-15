@@ -25,7 +25,6 @@
     display: flex;
     gap: 2rem;
     flex-direction: column;
-	font-size: 2rem !important;
 }
 
 .email-num {
